@@ -20,11 +20,13 @@ repositories {
 }
 
 dependencies {
-    compile 'org.springframework.boot:spring-boot-starter-web'
-    compile 'javax.servlet:jstl'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'javax.servlet:jstl'
 
-    compile 'org.webjars:bootstrap:3.3.5'
-    compile 'org.webjars:jquery:2.1.4'
+    implementation 'org.webjars:bootstrap:3.3.5'
+    implementation 'org.webjars:jquery:2.1.4'
+
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
 
     providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
     providedRuntime 'org.apache.tomcat.embed:tomcat-embed-jasper'
